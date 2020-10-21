@@ -1,0 +1,57 @@
+body {
+	overflow: hidden;
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+.navbar {
+	background-color: white;
+	border-bottom: 2px solid lightgrey;
+	width: 102%;
+}
+
+.nav-link {
+	font-weight: bold;
+}
+
+span.red {
+	color: red;
+}
+
+h1.inline {
+	display: inline;
+}
+
+img#bookmark_logo {
+	height: 35px;
+	width: 30px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+
+div.footer {
+	position: fixed;
+	bottom: 0;
+	color: #000000;
+	z-index: 999;
+	width: 100%;
+	border-top: 2px solid lightgrey;
+	background: white;
+}
+
+div.bottom {
+	bottom: 0;
+	position: absolute;
+}
+.flex-column {
+	align-content: flex-end;
+}
+
+ul.flex-column {
+	line-height: 0.5em;
+}
+
+li a.nav-link {
+	color: black;
+}
